@@ -12,10 +12,10 @@ func main() {
 	//nums = append(nums, 5)
 	//fmt.Print("+v", Subsets(nums))
 	//println(Rand10())
-	a := ListNode{5, nil}
+	//a := ListNode{5, nil}
 	//b := ListNode{4, &a}
-	c := ListNode{3, &a}
+	//c := ListNode{3, &a}
 	//d := ListNode{2, &c}
 	//e := ListNode{1, &d}
-	reverseBetween(&c, 1, 2)
+	print(decodeString("3[a2[c]]"))
 }
