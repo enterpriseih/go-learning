@@ -1,5 +1,7 @@
 package main
 
+import "fmt"
+
 func main() {
 	//PrintHelloWorld()
 	//println(minWindow("ADOBECODEBANC", "ABC"))
@@ -17,5 +19,6 @@ func main() {
 	//c := ListNode{3, &a}
 	//d := ListNode{2, &c}
 	//e := ListNode{1, &d}
-	print(decodeString("3[a2[c]]"))
+	//print(decodeString("3[a2[c]]"))
+	fmt.Println(calculate("1 + 1"))
 }
