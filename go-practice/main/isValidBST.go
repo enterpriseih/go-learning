@@ -1,12 +1,5 @@
 package main
 
-//Definition for a binary tree node.
-type TreeNode struct {
-	Val   int
-	Left  *TreeNode
-	Right *TreeNode
-}
-
 //输入：root = [2,1,3]
 //输出：true
 // -231 <= Node.val <= 231 - 1
