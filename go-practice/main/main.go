@@ -20,5 +20,5 @@ func main() {
 	//print(decodeString("3[a2[c]]"))
 	//fmt.Println(calculate("1 + 1"))
 	//println(minSubArrayLen(7, []int{2, 3, 1, 2, 4, 3}))
-	println(numSquares(13))
+	println(removeDuplicateLetters("abacb"))
 }
