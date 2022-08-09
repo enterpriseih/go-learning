@@ -20,5 +20,5 @@ func main() {
 	//print(decodeString("3[a2[c]]"))
 	//fmt.Println(calculate("1 + 1"))
 	//println(minSubArrayLen(7, []int{2, 3, 1, 2, 4, 3}))
-	println(removeDuplicateLetters("abacb"))
+	printSlice(findDiagonalOrder([][]int{{1, 2, 3}, {4, 5, 6}, {7, 8, 9}}))
 }
