@@ -21,9 +21,10 @@ func main() {
 	//fmt.Println(calculate("1 + 1"))
 	//println(minSubArrayLen(7, []int{2, 3, 1, 2, 4, 3}))
 	//printSlice(findDiagonalOrder([][]int{{1, 2, 3}, {4, 5, 6}, {7, 8, 9}}))
-	printSlice(getRow(1))
-	printSlice(getRow(2))
-	printSlice(getRow(3))
-	printSlice(getRow(4))
+	//printSlice(getRow(1))
+	//printSlice(getRow(2))
+	//printSlice(getRow(3))
+	//printSlice(getRow(4))
+	printSlice(findDisappearedNumbers([]int{4, 3, 2, 7, 8, 2, 3, 1}))
 
 }
