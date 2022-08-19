@@ -1,5 +1,10 @@
 package main
 
+import (
+	"go-practice/main/common"
+	"go-practice/main/easy"
+)
+
 func main() {
 	//PrintHelloWorld()
 	//println(minWindow("ADOBECODEBANC", "ABC"))
@@ -25,6 +30,6 @@ func main() {
 	//printSlice(getRow(2))
 	//printSlice(getRow(3))
 	//printSlice(getRow(4))
-	printSlice(findDisappearedNumbers([]int{4, 3, 2, 7, 8, 2, 3, 1}))
+	common.PrintSlice(easy.FindDisappearedNumbers([]int{4, 3, 2, 7, 8, 2, 3, 1}))
 
 }
