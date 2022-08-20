@@ -10,6 +10,14 @@ func GetMin(x1, x2 int) int {
 	}
 }
 
+func GetMax(x1, x2 int) int {
+	if x1 < x2 {
+		return x2
+	} else {
+		return x1
+	}
+}
+
 //Definition for a binary tree node.
 type TreeNode struct {
 	Val   int
