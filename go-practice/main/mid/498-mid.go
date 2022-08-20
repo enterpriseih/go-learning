@@ -1,6 +1,6 @@
 package mid
 
-import "go-practice/main"
+import "go-practice/main/common"
 
 func findDiagonalOrder(mat [][]int) []int {
 	//只有两个方向：右上，x-1，y+1；左下，x+1，y-1
@@ -11,7 +11,7 @@ func findDiagonalOrder(mat [][]int) []int {
 	n := len(mat[0])
 	x := 0
 	y := 0
-	maxLen := main.getMin(m, n)
+	maxLen := common.GetMin(m, n)
 	res := []int{}
 	res = append(res, mat[x][y])
 	for {

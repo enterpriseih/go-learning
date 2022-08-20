@@ -1,6 +1,6 @@
 package mid
 
-import "go-practice/main"
+import "go-practice/main/common"
 
 func maxProduct(nums []int) int {
 	if len(nums) == 0 {
@@ -17,7 +17,7 @@ func maxProduct(nums []int) int {
 	for i := 1; i < len(nums); i++ {
 		values1 := minRes[i-1] * nums[i]
 		values2 := maxRes[i-1] * nums[i]
-		minRes = append(minRes, main.getMin(nums[i], main.getMin(values1, values2)))
+		minRes = append(minRes, common.GetMin(nums[i], common.GetMin(values1, values2)))
 		maxRes = append(maxRes, getMax(nums[i], getMax(values1, values2)))
 		res = getMax(res, maxRes[i])
 	}
