@@ -1,7 +1,11 @@
 package main
 
-import "go-practice/main/mid"
+import (
+	_911 "go-practice/main/competition/0911"
+)
 
 func main() {
-	mid.TestSubarraySum()
+	//mid.TestSubarraySum()
+	//println(_911.TestMostFrequentEven())
+	println(_911.TestMinGroups())
 }
