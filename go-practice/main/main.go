@@ -1,11 +1,12 @@
 package main
 
-import (
-	_911 "go-practice/main/competition/0911"
-)
+import "regexp"
 
 func main() {
 	//mid.TestSubarraySum()
 	//println(_911.TestMostFrequentEven())
-	println(_911.TestMinGroups())
+	verion := "1.10.1+"
+	pattern := "^[0-9]+.[0-9]+.[0-9]+$"
+	matched, _ := regexp.MatchString(pattern, verion)
+	println(matched)
 }
