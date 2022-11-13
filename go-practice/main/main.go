@@ -1,7 +1,7 @@
 package main
 
 import (
-	"go-practice/main/mid"
+	"go-practice/main/hard"
 )
 
 func main() {
@@ -11,5 +11,5 @@ func main() {
 	//pattern := "^[0-9]+.[0-9]+.[0-9]+$"
 	//matched, _ := rxegexp.MatchString(pattern, verion)
 	//println(matched)
-	mid.TestFindUnsortedSubarray()
+	hard.TestReverseKGroup()
 }
