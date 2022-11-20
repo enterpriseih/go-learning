@@ -1,7 +1,7 @@
 package main
 
 import (
-	"go-practice/main/hard"
+	_120 "go-practice/main/competition/1120"
 )
 
 func main() {
@@ -11,5 +11,5 @@ func main() {
 	//pattern := "^[0-9]+.[0-9]+.[0-9]+$"
 	//matched, _ := rxegexp.MatchString(pattern, verion)
 	//println(matched)
-	hard.TestReverseKGroup()
+	_120.TestClosestNodes()
 }
