@@ -1,10 +1,10 @@
 package mid
 
-type TreeNode struct {
-	Val   int
-	Left  *TreeNode
-	Right *TreeNode
-}
+//type TreeNode struct {
+//	Val   int
+//	Left  *TreeNode
+//	Right *TreeNode
+//}
 
 func balanceBST(root *TreeNode) *TreeNode {
 	var values []int
